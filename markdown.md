@@ -2,8 +2,8 @@ Markdown practice
 
 # Heading 1
 
-First line.
-Second line
+First line.   
+Second line.
 
 ## Heading 2
 
