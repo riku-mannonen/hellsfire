@@ -12,5 +12,11 @@ Git log komennolla saadaan esiin loki, jossa nähdään tehdyt muutokset ja kuka
 
 ![](ph3.2.png)
 
+Git diff komennolla voidaan verrata kahta eri versiota samasta tiedostosta. Esimerkistä näkee, että tiedoston nimeä on muutettu. Miinus merkit kuvaavat poistoa ja plus merkit lisäystä. Punaisella ja vihreällä värillä näytetään eroavaisuuksia. Vihreä väri kuvaa nykyistä versiota.
+
 ![](ph3.3.png)
+
+Git blame komennolla nähdään tiedoston jokainen rivi, rivin sisältö ja rivin tekijä ja aika, jolloin se on tehty.
+
+
 
