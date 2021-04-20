@@ -2,7 +2,7 @@
 
 Tein tehtävät omalla ASUSin pöytätietokoneellani.   
 Minulla oli käytössä VirtualBoxille asennettu Xubuntu 18.04.5 LTS Käyttöjärjestelmä.   
-Tehtävien ratkaisemisen pohjana oli Tero Karvisen Palvelinten hallinta -kurssin toinen opetuskerta 15.4.2021
+Tehtävien ratkaisemisen pohjana oli Tero Karvisen Palvelinten hallinta -kurssin kolmas opetuskerta 15.4.2021
 
 ## d) Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
 
@@ -46,3 +46,5 @@ Testaamisen jälkeen poistin asetukset ja asensin uudelleen Saltilla. Aloitin te
 Kirjoitusvirhe aiheutti punaista, korjasin sen ja asennus onnistui.
 
 ![](ph3.7.png) 
+
+Tehtävän kesto: 40min
