@@ -6,5 +6,11 @@ Tehtävien ratkaisemisen pohjana oli Tero Karvisen Palvelinten hallinta -kurssin
 
 ## d) Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
 
+![](ph3.1.png)
 
+Git log komennolla saadaan esiin loki, jossa nähdään tehdyt muutokset ja kuka ne on tehnyt ja milloin.
+
+![](ph3.2.png)
+
+![](ph3.3.png)
 
