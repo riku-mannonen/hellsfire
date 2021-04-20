@@ -54,14 +54,18 @@ Päätin vielä lopuksi siirtää apachen, PHP:n ja MariaDb:n samaan tiedostoon.
 	sudo cd php7.2.conf /srv/salt/lamp
 	sudoedit /srv/salt/lamp/init.sls
 
-![](php3.8.png)
+![](ph3.8.png)
 
 Poistin koneelta vanhat asennukset, jonka jälkeen testasin onnistuneesti.
 
 	sudo apt purge apache2 php7.2 mariadb-server mysql-php
 
-![](php3.9.png)
+![](ph3.9.png)
 
 Tehtävän kesto: 80min
 
-Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 tai uudempi) mukaisesti.[](http://www.gnu.org/licenses/gpl.html)
+Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 tai uudempi) mukaisesti.[http://www.gnu.org/licenses/gpl.html](http://www.gnu.org/licenses/gpl.html)
+
+## Lähteet
+
+Karvinen, Tero. 15.4.2021. Palvelinten hallinta. Oppitunti.
