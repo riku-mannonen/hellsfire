@@ -28,3 +28,17 @@ Tehtävän kesto: 15min
 
 ## f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot. (Tietysti eri ohjelma kuin aiemmissa tehtävissä, tarkoitushan on harjoitella Salttia)
 
+Olin aikaisemmin asentanut apachen ja PHPn, joten päädyin asentamaan niiden jatkoksi MariaDBn. Aloitin asentamalla käsin.
+
+	sudo apt install mariadb-server -y
+	sudo apt install php-mysql -y
+
+Testaamisen jälkeen poistin asetukset ja asensin uudelleen Saltilla. Aloitin tekemällä uuden kansion mariadb:lle ja tein kansioon init tiedoston.
+
+	sudo mkdir /srv/salt/maria-db
+
+![](ph3.4.png)
+
+![](3.5.png)
+
+![](ph3.6.png 
