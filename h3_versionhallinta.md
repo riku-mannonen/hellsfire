@@ -18,5 +18,13 @@ Git diff komennolla voidaan verrata kahta eri versiota samasta tiedostosta. Esim
 
 Git blame komennolla nähdään tiedoston jokainen rivi, rivin sisältö ja rivin tekijä ja aika, jolloin se on tehty.
 
+Tehtävän kesto: 30min
 
+## e) Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset –hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
+
+Tein tyhmän muutoksen aikaisemmin tekemääni markdown harjoittelu tiedostoon. Tämän jälkeen tein git add . komennon ja sen jälkeen git reset --hard komennon. Tämä poisti tekemäni muutoksen md tiedostoon ja myös ottamani kuvakaappauksen.
+
+Tehtävän kesto: 15min
+
+## f) Tee uusi salt-moduli. Voit asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot. (Tietysti eri ohjelma kuin aiemmissa tehtävissä, tarkoitushan on harjoitella Salttia)
 
