@@ -47,4 +47,19 @@ Kirjoitusvirhe aiheutti punaista, korjasin sen ja asennus onnistui.
 
 ![](ph3.7.png) 
 
-Tehtävän kesto: 40min
+Päätin vielä lopuksi siirtää apachen, PHP:n ja MariaDb:n samaan tiedostoon. Tein lamp nimisen kansion, jonka init tiedostoon kopioin kaikkien kolmen init tiedostojen sisällön. Kopioin myös apache ja PHP kansioiden default-index.html ja ../mods-available/php7.2.conf tiedostot Lamp kansioon.
+
+	sudo mkdir /srv/salt/lamp
+	sudo cp default-index.html /srv/salt/lamp/
+	sudo cd php7.2.conf /srv/salt/lamp
+	sudoedit /srv/salt/lamp/init.sls
+
+![](php3.8.png)
+
+Poistin koneelta vanhat asennukset, jonka jälkeen testasin onnistuneesti.
+
+	sudo apt purge apache2 mariadb-server mysql-php
+
+![](php3.9.png)
+
+Tehtävän kesto: 80min
