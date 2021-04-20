@@ -33,12 +33,16 @@ Olin aikaisemmin asentanut apachen ja PHPn, joten päädyin asentamaan niiden ja
 	sudo apt install mariadb-server -y
 	sudo apt install php-mysql -y
 
+![](ph3.4.png)
+
 Testaamisen jälkeen poistin asetukset ja asensin uudelleen Saltilla. Aloitin tekemällä uuden kansion mariadb:lle ja tein kansioon init tiedoston.
 
 	sudo mkdir /srv/salt/maria-db
 
-![](ph3.4.png)
-
 ![](3.5.png)
 
-![](ph3.6.png 
+![](ph3.6.png)
+
+Kirjoitusvirhe aiheutti punaista, korjasin sen ja asennus onnistui.
+
+![](ph3.7.png) 
