@@ -68,5 +68,5 @@ Tätä dokumenttia saa kopioida ja muokata GNU General Public License (versio 2 
 
 ## Lähteet
 
-Karvinen, Tero. Publish Your Project with GitHub. Luettavissa: [http://terokarvinen.com/2016/publish-your-project-with-github/index.html](http://terokarvinen.com/2016/publish-your-project-with-github/index.html) Luettu: 20.4.2021
+Karvinen, Tero. Publish Your Project with GitHub. Luettavissa: [http://terokarvinen.com/2016/publish-your-project-with-github/index.html](http://terokarvinen.com/2016/publish-your-project-with-github/index.html) Luettu: 20.4.2021   
 Karvinen, Tero. 15.4.2021. Palvelinten hallinta. Oppitunti.
