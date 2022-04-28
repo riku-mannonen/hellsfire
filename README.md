@@ -1,4 +1,3 @@
-# hellsfire
-Unleashes the fires of hell!
+# Palvelinten hallinta
 
-This is a practice project - do not take this too seriously :-)
+Tero Karvisen palvelinten hallinta -kurssin tehtäviä.
